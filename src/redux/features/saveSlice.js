@@ -1,3 +1,4 @@
+// src/redux/features/saveSlice.js
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 
@@ -25,27 +26,27 @@ export const saveData = createAsyncThunk(
   }
 );
 
-
+// Create the save slice with reducers
 const saveSlice = createSlice({
   name: "save",
   initialState: {
-    status: "idle",  
-    error: null,     
-    data: null,     
+    status: "idle",  // loading, succeeded, failed
+    error: null,     // To hold error messages if any
+    data: null,      // To store the response from the save operation
   },
   reducers: {},
   extraReducers: (builder) => {
     builder
       .addCase(saveData.pending, (state) => {
-        state.status = "loading"; 
+        state.status = "loading"; // While the request is in progress
       })
       .addCase(saveData.fulfilled, (state, action) => {
-        state.status = "succeeded"; 
-        state.data = action.payload; 
+        state.status = "succeeded"; // When the save operation is successful
+        state.data = action.payload; // Save the API response
       })
       .addCase(saveData.rejected, (state, action) => {
-        state.status = "failed";
-        state.error = action.payload; 
+        state.status = "failed"; // When the request fails
+        state.error = action.payload; // Store the error message
       });
   },
 });
