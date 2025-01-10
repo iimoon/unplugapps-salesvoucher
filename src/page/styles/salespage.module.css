@@ -1,0 +1,32 @@
+.headerSection{
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .bodyContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .componentContainer{
+    width: 80%;
+  }
+  
+  .detailsContainer {
+    height: 500px; 
+    overflow-y: auto; 
+  }
+  
+  
+  .buttonContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    margin-left: 20px;
+  }
+  

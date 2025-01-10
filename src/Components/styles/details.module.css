@@ -1,0 +1,107 @@
+.headerSection {
+    background-color:#f8dc92; 
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333333;
+    border-radius: 12px;
+  }
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  font-size: 16px; 
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.table td input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.table td input:focus {
+  outline: none;
+  border-color: #66afe9;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+button.addRow {
+  background-color: #007bff;
+  margin-top: 20px;
+}
+
+button.addRow:hover {
+  background-color: #0056b3;
+}
+
+
+button.remove {
+  background-color: #e74c3c;
+  color: white;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+button.remove:hover {
+  background-color: #c0392b;
+}
+
+
+.headerSection {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.table tfoot td {
+  font-weight: bold;
+  text-align: center;
+}
+
+
+

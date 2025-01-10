@@ -1,0 +1,51 @@
+.headerSection {
+    background-color: #FFEB3B; 
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333333;
+    border-radius: 12px;
+  }
+  
+  .bodyContainer {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    padding: 20px;
+  }
+  
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .inputContainer input,
+  .inputContainer select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .inputContainer label {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  .inputContainer select {
+    background-color: #f9f9f9;
+  }
+  
+  @media (min-width: 768px) {
+    .bodyContainer {
+      flex-direction: row; 
+      flex-wrap: wrap;
+    }
+    .inputContainer {
+      flex: 1  30%; 
+    }
+
+  }
+  

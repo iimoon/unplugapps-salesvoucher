@@ -1,0 +1,29 @@
+
+
+.headerSection {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .headerTable, .detailsTable {
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .detailsTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .totalSection {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
