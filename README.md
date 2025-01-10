@@ -3,6 +3,7 @@
 Sales Voucher Manager is a single-page application (SPA) designed to streamline the creation, management, and printing of sales vouchers. This application allows users to input header details, add multiple line items dynamically, validate data, and save the information to a database. Additionally, it provides a printable version of the saved vouchers.
 
 <img src="./src/assets/readme/toast-image.jpeg" alt="application-ui">
+<img src="./src/assets/readme/print-page.png" alt="print-feature">
 
 ## Features
 
