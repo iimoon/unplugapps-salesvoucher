@@ -1,4 +1,3 @@
-// redux/features/detailsSlice.js
 import { createSlice } from "@reduxjs/toolkit";
 
 const detailsSlice = createSlice({
